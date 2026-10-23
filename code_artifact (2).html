@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>닻별마당 | 박서진 팬페이지</title>
+<!-- Google Fonts: Noto Sans KR (가독성 높은 폰트) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"Noto Sans KR"', 'sans-serif'],
+        },
+        colors: {
+          brand: {
+            yellow: '#FFD700',
+            darkYellow: '#E6B800',
+            bg: '#FFFDF0',
+            card: '#FFFFFF',
+            point: '#FF5722',
+            melon: '#00C73C',
+            interpark: '#1351E6',
+            darkText: '#111111',
+          }
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body {
+    background-color: #F4F1EA;
+    color: #111111;
+    word-break: keep-all;
+  }
+  /* 터치 및 클릭 시 시각적 반응 */
+  .btn-bounce:active {
+    transform: scale(0.97);
+  }
+</style>
+</head>
+<body class="font-sans antialiased min-h-screen pb-12">
+
+  <!-- 메인 모바일-프렌들리 컨테이너 -->
+  <div class="max-w-2xl mx-auto bg-brand-bg shadow-2xl min-h-screen flex flex-col justify-between border-x-0 md:border-x-4 border-amber-300">
+    
+    <div>
+      <!-- 상단 헤더 영역 -->
+      <header class="bg-gradient-to-b from-amber-300 to-amber-400 p-6 rounded-b-3xl shadow-md border-b-4 border-amber-500">
+        <div class="flex items-center justify-between mb-4">
+          <div class="flex items-center gap-3">
+            <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-3xl shadow-inner border-2 border-amber-200">
+              ⭐
+            </div>
+            <div>
+              <h1 class="text-3xl font-black text-gray-900 tracking-tight">닻별마당</h1>
+              <p class="text-lg font-bold text-amber-900 opacity-90">가수 박서진 공식 팬 페이지</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 상단 공식 채널 바로가기 3종 -->
+        <p class="text-sm font-black text-amber-950 mb-2 px-1">🔗 공식 바로가기</p>
+        <nav class="grid grid-cols-3 gap-2" aria-label="공식 채널">
+          <a href="https://m.cafe.daum.net/school1951" target="_blank" rel="noopener" 
+             class="btn-bounce bg-white border-2 border-amber-500 rounded-2xl py-3 px-2 text-center shadow-sm hover:bg-amber-50 transition">
+            <span class="block text-2xl mb-1">☕</span>
+            <span class="block font-black text-base text-gray-900">공식카페</span>
+          </a>
+          <a href="https://www.instagram.com/park_seojin_official/" target="_blank" rel="noopener" 
+             class="btn-bounce bg-white border-2 border-amber-500 rounded-2xl py-3 px-2 text-center shadow-sm hover:bg-amber-50 transition">
+            <span class="block text-2xl mb-1">📷</span>
+            <span class="block font-black text-base text-gray-900">인스타그램</span>
+          </a>
+          <a href="https://www.youtube.com/@parkseojin_official" target="_blank" rel="noopener" 
+             class="btn-bounce bg-white border-2 border-amber-500 rounded-2xl py-3 px-2 text-center shadow-sm hover:bg-amber-50 transition">
+            <span class="block text-2xl mb-1">▶️</span>
+            <span class="block font-black text-base text-gray-900">공식유튜브</span>
+          </a>
+        </nav>
+      </header>
+
+      <!-- 메인 콘텐츠 -->
+      <main class="p-5 space-y-8">
+
+        <!-- 메인 바로가기 버튼 4개 -->
+        <section>
+          <div class="mb-4">
+            <h2 class="text-2xl font-black text-gray-900 flex items-center gap-2">
+              <span>🚀</span> 바로 이동하기
+            </h2>
+            <p class="text-base font-bold text-gray-600">원하시는 버튼을 누르면 해당 화면으로 이동합니다.</p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <!-- 1. 박서진 쇼츠보기 -->
+            <a href="https://www.youtube.com/@parkseojin_official/shorts" target="_blank" rel="noopener"
+               class="btn-bounce bg-white border-3 border-red-500 rounded-2xl p-5 shadow-md flex items-center gap-4 hover:border-red-600 transition" style="border-width: 3px;">
+              <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center text-3xl shrink-0">
+                📱
+              </div>
+              <div>
+                <span class="block text-xl font-black text-gray-900 leading-snug">박서진 쇼츠보기</span>
+                <span class="inline-block mt-1 text-sm font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-md">유튜브 짧은영상 ▶</span>
+              </div>
+            </a>
+
+            <!-- 2. 공연영상 -->
+            <a href="https://www.youtube.com/results?search_query=%EB%B0%95%EC%84%9C%EC%A7%84+%EA%B3%B5%EC%97%B0+%EB%AC%B4%EB%8C%80" target="_blank" rel="noopener"
+               class="btn-bounce bg-white border-3 border-purple-500 rounded-2xl p-5 shadow-md flex items-center gap-4 hover:border-purple-600 transition" style="border-width: 3px;">
+              <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center text-3xl shrink-0">
+                🎤
+              </div>
+              <div>
+                <span class="block text-xl font-black text-gray-900 leading-snug">공연영상</span>
+                <span class="inline-block mt-1 text-sm font-bold text-purple-700 bg-purple-50 px-2 py-0.5 rounded-md">무대 모아보기 ▶</span>
+              </div>
+            </a>
+
+            <!-- 3. 음악듣기 >> 멜론 바로가기 -->
+            <a href="https://m2.melon.com/search/total/index.htm?q=%EB%B0%95%EC%84%9C%EC%A7%84" target="_blank" rel="noopener"
+               class="btn-bounce bg-emerald-50 border-3 border-emerald-500 rounded-2xl p-5 shadow-md flex items-center gap-4 hover:border-emerald-600 transition" style="border-width: 3px;">
+              <div class="w-16 h-16 bg-emerald-500 text-white rounded-2xl flex items-center justify-center text-3xl shrink-0 shadow-sm">
+                🎵
+              </div>
+              <div>
+                <span class="block text-xl font-black text-gray-900 leading-snug">음악듣기</span>
+                <span class="inline-block mt-1 text-base font-black text-emerald-700 bg-emerald-100 px-2.5 py-0.5 rounded-md">🍈 멜론 바로가기 ▶</span>
+              </div>
+            </a>
+
+            <!-- 4. 공연일정 보기 (티켓링크 연결 수정완료) -->
+            <a href="https://www.ticketlink.co.kr/search?query=%EB%B0%95%EC%84%9C%EC%A7%84" target="_blank" rel="noopener"
+               class="btn-bounce bg-blue-50 border-3 border-blue-500 rounded-2xl p-5 shadow-md flex items-center gap-4 hover:border-blue-600 transition" style="border-width: 3px;">
+              <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center text-3xl shrink-0 shadow-sm">
+                🎫
+              </div>
+              <div>
+                <span class="block text-xl font-black text-gray-900 leading-snug">공연일정 보기</span>
+                <span class="inline-block mt-1 text-base font-black text-blue-700 bg-blue-100 px-2.5 py-0.5 rounded-md">🎟️ 티켓링크 예매 ▶</span>
+              </div>
+            </a>
+
+          </div>
+        </section>
+
+        <!-- 최신 소식 안내 카드 -->
+        <section class="bg-white border-2 border-amber-300 rounded-2xl p-5 shadow-md">
+          <div class="flex items-center justify-between mb-3 border-b-2 border-amber-100 pb-3">
+            <h2 class="text-xl font-black text-gray-900 flex items-center gap-2">
+              <span>📰</span> 박서진 최신 소식
+            </h2>
+            <span class="text-sm font-bold text-amber-800 bg-amber-100 px-3 py-1 rounded-full" id="news-count">1 / 3</span>
+          </div>
+
+          <div id="news-container" class="min-h-[100px] flex flex-col justify-between">
+            <!-- JS로 소식 랜더링 -->
+          </div>
+
+          <div class="flex justify-between items-center mt-4 pt-3 border-t border-gray-100">
+            <button onclick="prevNews()" class="btn-bounce bg-amber-200 text-amber-950 font-black text-lg px-5 py-2.5 rounded-xl border border-amber-400">
+              ◀ 이전
+            </button>
+            <button onclick="nextNews()" class="btn-bounce bg-amber-400 text-amber-950 font-black text-lg px-5 py-2.5 rounded-xl border border-amber-500">
+              다음 ▶
+            </button>
+          </div>
+        </section>
+
+        <!-- 커스텀 메세지 모달 (alert대체) -->
+        <div id="msg-modal" class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
+          <div class="bg-white p-6 rounded-2xl max-w-sm w-full text-center border-4 border-amber-400 shadow-2xl">
+            <p id="msg-text" class="text-lg font-bold text-gray-900 mb-4"></p>
+            <button onclick="closeModal()" class="bg-amber-400 font-black text-amber-950 px-6 py-2 rounded-xl border-b-4 border-amber-600">확인</button>
+          </div>
+        </div>
+
+        <!-- 응원 게시판 -->
+        <section class="bg-white border-2 border-amber-300 rounded-2xl p-5 shadow-md">
+          <h2 class="text-xl font-black text-gray-900 mb-1 flex items-center gap-2">
+            <span>💛</span> 닻별 응원 사랑방
+          </h2>
+          <p class="text-base font-bold text-gray-600 mb-4">가수님께 응원의 한마디를 자유롭게 남겨주세요!</p>
+
+          <div class="space-y-3">
+            <textarea id="post-input" rows="3" 
+                      placeholder="여기를 누르고 응원의 글을 작성해 보세요." 
+                      class="w-full p-4 border-2 border-amber-300 rounded-xl text-lg font-medium focus:outline-none focus:border-amber-500 bg-amber-50/30"></textarea>
+            
+            <button onclick="submitPost()" 
+                    class="btn-bounce w-full bg-amber-400 hover:bg-amber-500 text-amber-950 font-black text-xl py-4 rounded-xl shadow-md border-b-4 border-amber-600 transition">
+              💛 응원 글 등록하기
+            </button>
+          </div>
+
+          <!-- 등록된 응원글 목록 -->
+          <div id="posts-list" class="mt-6 space-y-4 border-t-2 border-amber-100 pt-4">
+            <!-- JS로 게시글 랜더링 -->
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="p-6 text-center text-gray-600 border-t border-amber-200 bg-amber-50 mt-8">
+      <p class="font-black text-base text-gray-800">닻별마당 | 박서진 팬페이지</p>
+      <p class="text-sm font-medium mt-1 text-gray-500">모든 팬 여러분의 건강과 행복을 응원합니다! ⭐</p>
+    </footer>
+
+  </div>
+
+<script>
+// 커스텀 알림창 함수
+function showAlert(message) {
+  document.getElementById('msg-text').innerText = message;
+  document.getElementById('msg-modal').classList.remove('hidden');
+}
+
+function closeModal() {
+  document.getElementById('msg-modal').classList.add('hidden');
+}
+
+// 소식 데이터
+const newsList = [
+  {
+    tag: "방송 소식",
+    title: "KBS '살림하는 남자들 시즌2' 박서진 출연 소식",
+    desc: "가수 박서진님의 방송 출연 일정과 기사 모아보기",
+    url: "https://www.google.com/search?q=%EB%B0%95%EC%84%9C%EC%A7%84+%EC%82%B4%EB%A6%BC%EB%82%A8"
+  },
+  {
+    tag: "공연 소식",
+    title: "전국 단독 콘서트 및 행사 무대 소식",
+    desc: "티켓링크에서 공식 공연 일정 및 예매를 진행하세요",
+    url: "https://www.ticketlink.co.kr/search?query=%EB%B0%95%EC%84%9C%EC%A7%84"
+  },
+  {
+    tag: "신곡 소식",
+    title: "박서진 아티스트 멜론 음원 스트리밍 함께해요",
+    desc: "멜론에서 박서진 신곡 듣고 하트(♥) 누르기",
+    url: "https://m2.melon.com/search/total/index.htm?q=%EB%B0%95%EC%84%9C%EC%A7%84"
+  }
+];
+
+let currentNewsIndex = 0;
+
+function renderNews() {
+  const item = newsList[currentNewsIndex];
+  const container = document.getElementById('news-container');
+  const countEl = document.getElementById('news-count');
+  
+  countEl.innerText = `${currentNewsIndex + 1} / ${newsList.length}`;
+  
+  container.innerHTML = `
+    <div>
+      <span class="inline-block bg-amber-100 text-amber-900 font-black text-xs px-2.5 py-1 rounded-md mb-2 border border-amber-300">
+        ${item.tag}
+      </span>
+      <h3 class="text-lg font-black text-gray-900 leading-snug mb-1">${item.title}</h3>
+      <p class="text-base font-bold text-gray-600">${item.desc}</p>
+    </div>
+    <a href="${item.url}" target="_blank" rel="noopener" 
+       class="inline-flex items-center text-base font-black text-amber-900 hover:text-amber-950 mt-3 underline decoration-amber-400 decoration-2">
+      자세히 보기 ↗
+    </a>
+  `;
+}
+
+function prevNews() {
+  currentNewsIndex = (currentNewsIndex - 1 + newsList.length) % newsList.length;
+  renderNews();
+}
+
+function nextNews() {
+  currentNewsIndex = (currentNewsIndex + 1) % newsList.length;
+  renderNews();
+}
+
+// 응원 게시판 기능 (localStorage 사용)
+function getPosts() {
+  try {
+    return JSON.parse(localStorage.getItem('seojin_fan_posts') || '[]');
+  } catch (e) {
+    return [];
+  }
+}
+
+function savePosts(posts) {
+  try {
+    localStorage.setItem('seojin_fan_posts', JSON.stringify(posts));
+  } catch (e) {}
+}
+
+function submitPost() {
+  const input = document.getElementById('post-input');
+  const text = input.value.trim();
+  
+  if (!text) {
+    showAlert('응원의 글을 먼저 적어주세요!');
+    return;
+  }
+
+  const posts = getPosts();
+  posts.unshift({
+    id: Date.now(),
+    text: text,
+    date: new Date().toLocaleDateString('ko-KR', { month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+  });
+
+  savePosts(posts);
+  input.value = '';
+  renderPosts();
+}
+
+function deletePost(id) {
+  const posts = getPosts().filter(p => p.id !== id);
+  savePosts(posts);
+  renderPosts();
+}
+
+function escapeHtml(str) {
+  return str.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderPosts() {
+  const container = document.getElementById('posts-list');
+  const posts = getPosts();
+
+  if (posts.length === 0) {
+    container.innerHTML = `
+      <div class="text-center py-6 text-gray-500 font-bold text-base">
+        첫 번째 응원글을 남겨주세요! ⭐
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = posts.map(post => `
+    <div class="bg-amber-50/50 p-4 rounded-xl border border-amber-200 text-left">
+      <div class="flex justify-between items-center mb-2">
+        <span class="font-black text-amber-900 text-base flex items-center gap-1">
+          <span>⭐</span> 익명의 닻별
+        </span>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold text-gray-500">${post.date}</span>
+          <button onclick="deletePost(${post.id})" class="text-xs font-bold text-red-500 hover:underline">삭제</button>
+        </div>
+      </div>
+      <p class="text-lg font-bold text-gray-900 whitespace-pre-wrap leading-relaxed">${escapeHtml(post.text)}</p>
+    </div>
+  `).join('');
+}
+
+// 초기화
+renderNews();
+renderPosts();
+</script>
+</body>
+</html>
